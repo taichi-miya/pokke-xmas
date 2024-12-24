@@ -62,7 +62,7 @@ if image_files:
 
     # ボタンで画像を表示
     if st.button("画像を表示"):
-        st.image(selected_image_path, caption=selected_name, use_column_width=True)
+        st.image(selected_image_path, caption=selected_name, use_container_width=True)
 
     # ダウンロードボタン
     with open(selected_image_path, "rb") as f:
